@@ -32,7 +32,7 @@ public class NarutoMod
 
     private void commonSetup(final FMLCommonSetupEvent event)
     {
-
+        // just a comment
     }
 
     // Add the example block item to the building blocks tab
