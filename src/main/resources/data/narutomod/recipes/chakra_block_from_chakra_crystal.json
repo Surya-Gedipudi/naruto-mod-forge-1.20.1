@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "narutomod:chakra_crystal"
+    }
+  },
+  "result": {
+    "item": "narutomod:chakra_block"
+  }
+}

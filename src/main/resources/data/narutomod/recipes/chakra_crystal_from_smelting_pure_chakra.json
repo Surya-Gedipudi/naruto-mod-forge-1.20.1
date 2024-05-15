@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "chakra_crystal",
+  "ingredient": {
+    "item": "narutomod:pure_chakra"
+  },
+  "result": "narutomod:chakra_crystal"
+}

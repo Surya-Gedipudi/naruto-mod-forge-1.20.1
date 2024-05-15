@@ -1,5 +1,6 @@
 package net.surya.narutomod.item;
 
+import net.surya.narutomod.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -19,8 +20,12 @@ public class ModCreativeModeTabs
                     .title(Component.translatable("creativetab.naruto_mods_tab"))
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.EYE_OF_KURAMA.get());
-                        pOutput.accept(ModItems.SASUKE_KATANA.get());
+                        pOutput.accept(ModItems.RINNEGAN.get());
+                        pOutput.accept(ModItems.CHAKRA_CRYSTAL.get());
+                        pOutput.accept(ModItems.PURE_CHAKRA.get());
 
+                        pOutput.accept(ModBlocks.CHAKRA_BLOCK.get());
+                        pOutput.accept(ModBlocks.CHAKRA_ORE.get());
 
                     })
                     .build());
