@@ -8,7 +8,11 @@
 - Pure Chakra
 #### Blocks:
 - Block of Chakra
+- Block of Raw Chakra
 - Chakra Ore
+- Deepslate Chakra Ore
+- Nether Chakra Ore
+- Endstone Chakra Ore
 #### Recipes:
 1. Smelting(and Blasting) Pure Chakra into Chakra Crystal:
 - ![img_3.png](img_3.png)

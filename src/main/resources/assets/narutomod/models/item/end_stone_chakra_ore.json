@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "narutomod:block/chakra_ore"
+    "all": "narutomod:block/end_stone_chakra_ore"
   }
 }

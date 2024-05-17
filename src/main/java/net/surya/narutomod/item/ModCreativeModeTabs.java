@@ -19,13 +19,21 @@ public class ModCreativeModeTabs
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.EYE_OF_KURAMA.get()))
                     .title(Component.translatable("creativetab.naruto_mods_tab"))
                     .displayItems((pParameters, pOutput) -> {
+                        // accepting some items
                         pOutput.accept(ModItems.EYE_OF_KURAMA.get());
                         pOutput.accept(ModItems.RINNEGAN.get());
                         pOutput.accept(ModItems.CHAKRA_CRYSTAL.get());
                         pOutput.accept(ModItems.PURE_CHAKRA.get());
 
+                        // accepting chakra blocks
                         pOutput.accept(ModBlocks.CHAKRA_BLOCK.get());
+                        pOutput.accept(ModBlocks.RAW_CHAKRA_BLOCK.get());
+
+                        // accepting chakra ores
                         pOutput.accept(ModBlocks.CHAKRA_ORE.get());
+                        pOutput.accept(ModBlocks.DEEPSLATE_CHAKRA_ORE.get());
+                        pOutput.accept(ModBlocks.NETHER_CHAKRA_ORE.get());
+                        pOutput.accept(ModBlocks.END_STONE_CHAKRA_ORE.get());
 
                     })
                     .build());

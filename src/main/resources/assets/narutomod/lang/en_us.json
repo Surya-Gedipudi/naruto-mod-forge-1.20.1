@@ -5,7 +5,12 @@
   "item.narutomod.pure_chakra": "Pure Chakra",
 
   "block.narutomod.chakra_block": "Block of Chakra",
+  "block.narutomod.raw_chakra_block": "Block of Raw Chakra",
+
   "block.narutomod.chakra_ore": "Chakra Ore",
+  "block.narutomod.deepslate_chakra_ore": "Deepslate Chakra Ore",
+  "block.narutomod.nether_chakra_ore": "Nether Chakra Ore",
+  "block.narutomod.end_stone_chakra_ore": "Endstone Chakra Ore",
 
   "creativetab.naruto_mods_tab": "Naruto Mods"
 }
